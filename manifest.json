@@ -1,0 +1,11 @@
+{
+    "Name": "Genderswap Pack",
+    "Author": "Dio and Nuva",
+    "Version": "1.0.0",
+    "Description": "Adds an option to swap the gender of the 6 bachelorettes",
+    "UniqueID": "DioNuva.Genderswap",
+    "UpdateKeys": [], // when you release the mod, see https://stardewvalleywiki.com/Modding:Modder_Guide/APIs/Update_checks
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}
