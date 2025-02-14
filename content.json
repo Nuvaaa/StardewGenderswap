@@ -322,12 +322,24 @@
             }
         },
 
-        // Names
+        // Names & Gender
         {
             "Action": "EditData",
             "Target": "Strings/NPCNames",
             "Entries": {
                 "Abigail": "Gale"
+            },
+            "When": {
+                "Gale": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "Abigail": {
+                    "Gender": "Male"
+                }
             },
             "When": {
                 "Gale": true
@@ -344,12 +356,36 @@
                 "Lee": true
             }
         },
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "Emily": {
+                    "Gender": "Male"
+                }
+            },
+            "When": {
+                "Lee": true
+            }
+        },
 
         {
             "Action": "EditData",
             "Target": "Strings/NPCNames",
             "Entries": {
                 "Haley": "Hal"
+            },
+            "When": {
+                "Hal": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "Haley": {
+                    "Gender": "Male"
+                }
             },
             "When": {
                 "Hal": true
@@ -366,6 +402,18 @@
                 "Liam": true
             }
         },
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "Leah": {
+                    "Gender": "Male"
+                }
+            },
+            "When": {
+                "Liam": true
+            }
+        },
 
         {
             "Action": "EditData",
@@ -377,12 +425,36 @@
                 "Mark": true
             }
         },
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "Maru": {
+                    "Gender": "Male"
+                }
+            },
+            "When": {
+                "Mark": true
+            }
+        },
 
         {
             "Action": "EditData",
             "Target": "Strings/NPCNames",
             "Entries": {
                 "Penny": "Perry"
+            },
+            "When": {
+                "Perry": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "Penny": {
+                    "Gender": "Male"
+                }
             },
             "When": {
                 "Perry": true
