@@ -1,4 +1,14 @@
 {
+    "config.Gale.name": "Swapped Abigail",
+    "config.Gale.description": "Wether or not Haley's gender will be swapped",
+    "config.Lee.name": "Swapped Emily",
+    "config.Lee.description": "Wether or not Emily's gender will be swapped",
     "config.Hal.name": "Swapped Haley",
-    "config.Hal.description": "Wether or not Haley's gender will be swapped"
+    "config.Hal.description": "Wether or not Haley's gender will be swapped",
+    "config.Liam.name": "Swapped Leah",
+    "config.Liam.description": "Wether or not Leah's gender will be swapped",
+    "config.Mark.name": "Swapped Maru",
+    "config.Mark.description": "Wether or not Maru's gender will be swapped",
+    "config.Perry.name": "Swapped Penny",
+    "config.Perry.description": "Wether or not Penny's gender will be swapped"
 }

@@ -1,12 +1,131 @@
 {
     "Format": "2.5.0",
     "ConfigSchema": {
+        "Gale": {
+            "AllowValues": "true, false",
+            "Default": true
+        },
+        "Lee": {
+            "AllowValues": "true, false",
+            "Default": true
+        },
         "Hal": {
+            "AllowValues": "true, false",
+            "Default": true
+        },
+        "Liam": {
+            "AllowValues": "true, false",
+            "Default": true
+        },
+        "Mark": {
+            "AllowValues": "true, false",
+            "Default": true
+        },
+        "Perry": {
             "AllowValues": "true, false",
             "Default": true
         }
     },
     "Changes": [
+        // Portraits
+        {
+            "Action": "Load",
+            "Target": "Portraits/Abigail",
+            "FromFile": "assets/Portraits/Gale.png",
+            "When": {
+                "Gale": true
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Portraits/Abigail_winter",
+            "FromFile": "assets/Portraits/Gale_winter.png",
+            "When": {
+                "Gale": true
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Portraits/Abigail_beach",
+            "FromFile": "assets/Portraits/Gale_beach.png",
+            "When": {
+                "Gale": true
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Abigail",
+            "FromFile": "assets/Characters/Gale.png",
+            "When": {
+                "Gale": true
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Abigail_winter",
+            "FromFile": "assets/Characters/Gale_winter.png",
+            "When": {
+                "Gale": true
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Abigail_beach",
+            "FromFile": "assets/Characters/Gale_beach.png",
+            "When": {
+                "Gale": true
+            }
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Portraits/Emily",
+            "FromFile": "assets/Portraits/Lee.png",
+            "When": {
+                "Lee": true
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Portraits/Emily_winter",
+            "FromFile": "assets/Portraits/Lee_winter.png",
+            "When": {
+                "Lee": true
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Portraits/Emily_beach",
+            "FromFile": "assets/Portraits/Lee_beach.png",
+            "When": {
+                "Lee": true
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Emily",
+            "FromFile": "assets/Characters/Lee.png",
+            "When": {
+                "Lee": true
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Emily_winter",
+            "FromFile": "assets/Characters/Lee_winter.png",
+            "When": {
+                "Lee": true
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Emily_beach",
+            "FromFile": "assets/Characters/Lee_beach.png",
+            "When": {
+                "Lee": true
+            }
+        },
+
         {
             "Action": "Load",
             "Target": "Portraits/Haley",
@@ -55,177 +174,201 @@
                 "Hal": true
             }
         },
+
+        {
+            "Action": "Load",
+            "Target": "Portraits/Leah",
+            "FromFile": "assets/Portraits/Liam.png",
+            "When": {
+                "Liam": true
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Portraits/Leah_winter",
+            "FromFile": "assets/Portraits/Liam_winter.png",
+            "When": {
+                "Liam": true
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Portraits/Leah_beach",
+            "FromFile": "assets/Portraits/Liam_beach.png",
+            "When": {
+                "Liam": true
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Leah",
+            "FromFile": "assets/Characters/Liam.png",
+            "When": {
+                "Liam": true
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Leah_winter",
+            "FromFile": "assets/Characters/Liam_winter.png",
+            "When": {
+                "Liam": true
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Leah_beach",
+            "FromFile": "assets/Characters/Liam_beach.png",
+            "When": {
+                "Liam": true
+            }
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Portraits/Maru",
+            "FromFile": "assets/Portraits/Mark.png",
+            "When": {
+                "Mark": true
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Portraits/Maru_winter",
+            "FromFile": "assets/Portraits/Mark_winter.png",
+            "When": {
+                "Mark": true
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Portraits/Maru_beach",
+            "FromFile": "assets/Portraits/Mark_beach.png",
+            "When": {
+                "Mark": true
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Maru",
+            "FromFile": "assets/Characters/Mark.png",
+            "When": {
+                "Mark": true
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Maru_winter",
+            "FromFile": "assets/Characters/Mark_winter.png",
+            "When": {
+                "Mark": true
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Maru_beach",
+            "FromFile": "assets/Characters/Mark_beach.png",
+            "When": {
+                "Mark": true
+            }
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Portraits/Penny",
+            "FromFile": "assets/Portraits/Perry.png",
+            "When": {
+                "Perry": true
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Portraits/Penny_winter",
+            "FromFile": "assets/Portraits/Perry_winter.png",
+            "When": {
+                "Perry": true
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Portraits/Penny_beach",
+            "FromFile": "assets/Portraits/Perry_beach.png",
+            "When": {
+                "Perry": true
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Penny",
+            "FromFile": "assets/Characters/Perry.png",
+            "When": {
+                "Perry": true
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Penny_winter",
+            "FromFile": "assets/Characters/Perry_winter.png",
+            "When": {
+                "Perry": true
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Penny_beach",
+            "FromFile": "assets/Characters/Perry_beach.png",
+            "When": {
+                "Perry": true
+            }
+        },
+
+        // Names & Gender
         {
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Alex",
+            "Target": "Strings/NPCNames",
             "Entries": {
-                "married_Haley": "You got Hal to marry you, huh? I always figured she was out of your league!",
-                "winter_Tue": "Hey, can you go find Hal and tell her I said 'hi'?",
-                "winter_Tue4": "Hey, @. Could you do me a favor?$l#$b#If you see Hal, tell her I'm busy.$l#$e#Thanks.",
-                "winter_Tue4_inlaw_Haley": "I'll admit... I was a little jealous when you and Hal got married. But, hey... It's a chance for me to learn something new about myself.$9"
+                "Abigail": "Gale"
             },
             "When": {
-                "Hal": true
+                "Gale": true
             }
         },
         {
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Emily",
+            "Target": "Data/Characters",
             "Entries": {
-                "married_Haley": "That was a beautiful wedding... I'm really happy for you and Hal!$h",
-                "divorced_Haley": "Hal is too proud to be heartbroken over the divorce... Or at least to show it.$3",
-                "Mon": "Have I told you Hal and I are siblings? Strange, isn't it?",
-                "Mon6": "I wish Hal would get a job or at least contribute to cooking and cleaning.$s#$e#I think he's hoping to marry someone rich.$u",
-                "Mon6_inlaw_Haley": "I have to say, now that Hal's gone I've had a much easier time keeping things in order.",
-                "summer_Mon": "Hal is a picky eater. It's so hard to cook for him.",
-                "summer_Mon_inlaw_Haley": "Hal and I get along much better now that he's moved out. I look forward to his visits!",
-                "winter_Wed": "Hal and I aren't made for such a big house. It's a hassle to keep it clean.#$e#Ah well. I really shouldn't be complaining.#$e#Your farmhouse seems nice and cozy.$h",
-                "winter_Sun6": "My brother and I might fight sometimes, but I would really miss him if she left.#$e#I think he'll become a very nice young man some day... Don't tell him I said that.$h#$e#So, is there anything you want to talk about?",
-                "winter_Sun6_inlaw_Haley": "Say hi to my brother for me! And remind him to visit me tomorrow."
+                "Abigail": {
+                    "Gender": "Male"
+                }
             },
             "When": {
-                "Hal": true
+                "Gale": true
             }
         },
+
         {
             "Action": "EditData",
-            "Target": "Characters/Dialogue/MarriageDialogue",
+            "Target": "Strings/NPCNames",
             "Entries": {
-                "spouseRoom_Haley": "#$c .5#Go ahead and start your day, honey. I'm just wiping off my make-up.#$e#Have any plans for the day?"
+                "Emily": "Lee"
             },
             "When": {
-                "Hal": true
+                "Lee": true
             }
         },
         {
             "Action": "EditData",
-            "Target": "Characters/Dialogue/MarriageDialogueHaley",
+            "Target": "Data/Characters",
             "Entries": {
-                "OneKid_3": "Isn't it strange? I'm not used to being a father."
+                "Emily": {
+                    "Gender": "Male"
+                }
             },
             "When": {
-                "Hal": true
+                "Lee": true
             }
         },
-        {
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Haley",
-            "Entries": {
-                "Introduction": "Oh... you're that new farmer boy, aren't you?^Oh... You're that new farmer girl, or whatever. Aren't you?#$e#Huh? Oh... I'm Hal.#$e#Hmm... If it weren't for those horrendous clothes you might actually be cute.^Hmm... If it weren't for those horrendous clothes you might actually be pretty... Actually, never mind.$h",
-                "eventSeen_13_memory_oneweek": "%Hal greets you with a smile. You notice that he's wearing his Great-Grandma's bracelet.",
-                "cropMatured_421": "My name means 'holy', but I like to imagine it as a meadow full of sunflowers...",
-                "married_Emily": "Hey, I guess we're kind of like brothers now!^Well, I guess this makes you my 'sister-in-law', huh? That's funny to think about.$h",
-                "dating_Haley_memory_oneyear": "So, what's the idea here... am I just going to be your 'boyfriend' forever...?$7",
-                "FlowerDance_Accept_Spouse": "*sigh*... My days of being Flower King are over... so it's a bittersweet dance for me.$s#$b#But, yes...",
-                "Fri": "%Hal is ignoring you."
-            },
-            "When": {
-                "Hal": true
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/spring24",
-            "Entries": {
-                "Haley": "I'm practicing my dance moves... It needs to be perfect.#$e#I've been flower king for the past 5 years and I'm not ready to step off the throne just yet!"
-            },
-            "When": {
-                "Hal": true
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/ExtraDialogue",
-            "Entries": {
-                "SummitEvent_Dialogue3_Haley": "*giggle*... $h\"/faceDirection farmer 1 true/emote farmer 8/pause 1000/speak Haley \"Oh, it's just that...#$b#As a little boy, I always dreamed that one day, I would climb to the summit with my true love, and share a kiss.$l\""
-            },
-            "When": {
-                "Hal": true
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/mail",
-            "Entries": {
-                "haleyGarden": "@,^I thought it would be fun to write you a note.^ I had so much fun with the cows yesterday... I'm starting to understand why you chose the farmer's life! Hope to see you soon.  ^   -Hal[#]Haley's Note"
-            },
-            "When": {
-                "Hal": true
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Quests",
-            "Entries": {
-                "127": "Basic/Hal's Cake-Walk/Your husband is organizing a charity cake-walk in the town square. He asked you to bring a chocolate cake./Enter Town on a sunny morning with a chocolate cake./-1/-1/0/-1/true"            },
-            "When": {
-                "Hal": true
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/SecretNotes",
-            "Entries": {
-                "8": "^To Hal and Emily^^Hope you two are doing well! We've sent you your favorite gifts: Pink Cake and Sunflowers for Hal, Gemstones and Wool for Emily!^^-Love Mom and Dad%revealtaste:Haley:221%revealtaste:Haley:421%revealtaste:Emily:440%revealtaste:Emily:66%revealtaste:Emily:62%revealtaste:Emily:60%revealtaste:Emily:70%revealtaste:Emily:64%revealtaste:Emily:68"
-            },
-            "When": {
-                "Hal": true
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/animationDescriptions",
-            "Entries": {
-                "haley_photo": "%Hal's too involved with his camera to notice you."
-            },
-            "When": {
-                "Hal": true
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/1_6_Strings",
-            "Entries": {
-                "DesertFestival_Haley2_marriage": "%Your wife is taking a nap.",
-                "DesertFestival_Haley2": "%Hal is glistening in the sunlight."
-            },
-            "When": {
-                "Hal": true
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Objects",
-            "Entries": {
-                "HaleysLostBracelet_Name": "Hal's Lost Bracelet"
-            },
-            "When": {
-                "Hal": true
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/StringsFromMaps",
-            "Entries": {
-                "HaleyHouse.2": "You quickly peek into Hal's private dresser. It's stuffed with clothes. ",
-                "HaleyHouse.3": "You quickly peek into Hal's private dresser. It's stuffed with clothes. ",
-                "HaleyHouse.11": "It's Hal's camera."
-            },
-            "When": {
-                "Hal": true
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Weapons",
-            "Entries": {
-                "HaleysIron_Name": "Hal's Iron",
-                "HaleysIron_Description": "It's searing hot and smells like Hal's hair."
-            },
-            "When": {
-                "Hal": true
-            }
-        },
+
         {
             "Action": "EditData",
             "Target": "Strings/NPCNames",
@@ -234,6 +377,87 @@
             },
             "When": {
                 "Hal": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "Haley": {
+                    "Gender": "Male"
+                }
+            },
+            "When": {
+                "Hal": true
+            }
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Strings/NPCNames",
+            "Entries": {
+                "Leah": "Liam"
+            },
+            "When": {
+                "Liam": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "Leah": {
+                    "Gender": "Male"
+                }
+            },
+            "When": {
+                "Liam": true
+            }
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Strings/NPCNames",
+            "Entries": {
+                "Maru": "Mark"
+            },
+            "When": {
+                "Mark": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "Maru": {
+                    "Gender": "Male"
+                }
+            },
+            "When": {
+                "Mark": true
+            }
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Strings/NPCNames",
+            "Entries": {
+                "Penny": "Perry"
+            },
+            "When": {
+                "Perry": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "Penny": {
+                    "Gender": "Male"
+                }
+            },
+            "When": {
+                "Perry": true
             }
         }
     ]
